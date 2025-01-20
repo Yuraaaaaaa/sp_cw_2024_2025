@@ -1,0 +1,17 @@
+MAIMPROGRAM _PROGR ;
+START DATA INTEGER _AVVVV , _BVVVV , _CVVVV ;
+  GET (_AVVVV)
+  GET (_BVVVV)
+   GET (_CVVVV)
+    IF ( _AVVVV == _BVVVV ) ; ELSE GOTO _CALUE ;
+      GOTO _BALUE
+ _CALUE :
+  PUT ( 0 )
+  GOTO _ENASD
+   _BALUE :
+     IF ( _AVVVV == _CVVVV ) ; ELSE GOTO _CALUE ;
+      PUT ( 1 )
+_ENASD:
+  GET (_AVVVV)
+END
+ 
